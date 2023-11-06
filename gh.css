@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+}
+
+  
+.form-gh{
+opacity: 1;
+pointer-events: none;
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+text-shadow: none;
+  width: 500px;
+  height: 100vh;
+  background-color: rgb(241, 212, 169);
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+}
+.form-gh h1{
+  padding: 15px;
+}
+#card-gh{
+  width: 100%;
+  height: 30px;
+}
+#card-gh ul{
+  margin: 0;
+  width: 100%;
+  height: 30px;
+font-weight: 600;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+#card-gh li:nth-child(1){
+  margin: 0;
+  width: 50%;
+  height: 30px;
+ padding-top: 15px;
+ text-align: left;
+ text-indent: 20px;
+}
+#card-gh li:nth-child(2){
+  margin: 0;
+  width: 20%;
+  height: 30px;
+  
+ padding-top: 15px;
+}
+#card-gh li:nth-child(3){
+  margin: 0;
+  width: 20%;
+  height: 30px;
+
+ padding-top: 15px;
+}
+#card-gh li:nth-child(4){
+  margin: 0;
+  width: 20%;
+  height: 30px;
+ padding-top: 15px;
+}
+#card-hang{
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid white;
+}
+#card-hang img{
+  width: 70px;
+  height: 70px;
+  border-radius: 7px;
+  border: 1px solid grey;
+  
+}
+#card-hang ul{
+  margin: 0;
+  width: 100%;
+  height: 85px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+#card-hang li:nth-child(1){
+  margin: 0;
+  width: 40%;
+  height: 85px;
+ padding-top: 15px;
+ text-align: left;
+ display: flex;
+ padding-left: 20px;
+}
+#tensp{
+  padding-top: 23px;
+}
+#card-hang li:nth-child(2){
+  width: 20%;
+  height: 65px;
+padding-top: 35px;
+}
+#card-hang li:nth-child(2) {
+  width: 20%;
+}
+#card-hang li:nth-child(3) {
+  width: 20%;
+  height: 85px;
+ 
+}
+#card-hang li:nth-child(3) input{
+  width: 30px;
+  margin-top: 35px;
+}
+#card-hang li:nth-child(4){
+  width: 20%;
+  height: 65px;
+padding-top: 35px;
+}
+#card-hang li:nth-child(4) {
+  width: 20%;
+  text-indent: 2px;
+}
+#tongtien{
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  text-indent: 300px;
+}
+#btn-chotdon{
+  width: 100%;
+  height: 40px;
+}
+#btn-chotdon button{
+  margin-top: 10px;
+  padding: 7px  15px;
+  background-color: rgb(249, 49, 31);
+  border-radius: 5px;
+  border: 0;
+  color: white;
+}
+.gh-form{
+position: fixed;
+width: 100vw;
+height: 100vh;
+background-color: rgba(0,0,0,0.4);
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #333;
+z-index: 9999;
+display: none;
+
+}
